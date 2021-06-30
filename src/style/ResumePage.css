@@ -1,0 +1,205 @@
+.resume_page {
+	padding: 80px 200px 20px;
+}
+
+.resume_page .resume_heading {
+	font-size: 44px;
+	color: #f2f2f2;
+	font-weight: bold;
+}
+
+.resume_page .resume_heading span {
+	color: #808080;
+}
+
+.resume_page .resume_headimg_img {
+	padding: 140px 0;
+}
+
+.resume_page .resume_headimg_img img {
+	width: 100%;
+	height: auto;
+}
+
+.resume_page .left {
+	line-height: 12px;
+}
+
+.content_heading {
+	color: #ffd600;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.content {
+	font-size: 20px;
+	color: #ffff;
+}
+
+/* Work Experience */
+.resume_page .work_experience h1 {
+	padding: 90px 0 150px;
+}
+
+/* Education */
+.resume_page .education h1 {
+	padding: 130px 0 120px;
+}
+
+.resume_page .education .content_heading {
+	font-size: 23px;
+	padding-bottom: 12px;
+}
+
+.resume_page .education .content_sm {
+	font-size: 15px;
+	padding: 10px 0;
+}
+
+/* Certificates */
+.resume_page .certificate h1 {
+	padding: 130px 0 130px;
+}
+
+.resume_page .certificate .content_heading {
+	font-size: 23px;
+	padding-bottom: 12px;
+}
+
+.resume_page .certificate .content_sm {
+	font-size: 15px;
+	padding: 10px 0;
+}
+
+/* Alumni */
+.resume_page .alumni h1 {
+	padding: 130px 0 120px;
+}
+
+.resume_page .alumni img {
+	width: 80%;
+	padding: 0 20px;
+}
+
+/* Volunteering */
+.resume_page .volunteering h1 {
+	padding: 130px 0 110px;
+}
+
+/* Personal Projects */
+.resume_page .projects h1 {
+	padding: 130px 0 130px;
+}
+
+.project_heading {
+	color: #fff;
+	text-decoration: none;
+	margin-top: 25px;
+	padding-bottom: 10px;
+	font-size: 23px;
+	font-weight: bold;
+}
+
+.project_heading:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.resume_page .projects img {
+	width: 100%;
+}
+
+/* Breaker */
+.resume_page .breaker {
+	padding: 130px 0;
+	font-size: 30px;
+	text-align: center;
+}
+
+/* Social Links */
+.resume_page .social_links {
+	text-align: center;
+	padding: 0 50px;
+}
+
+.resume_page .social_links .content {
+	font-size: 25px;
+}
+
+.resume_page .social_links .content a {
+	text-decoration: underline;
+	color: #ffd600;
+	font-weight: bold;
+}
+
+.resume_page .social_links .links {
+	padding: 50px 0 0 0;
+}
+
+.resume_page .social_links i {
+	padding: 0 20px;
+	font-size: 40px;
+	color: black;
+	text-shadow: -1px 1px #ffd600, 1px 1px #ffd600, 1px 0 #ffd600, 0 -1px #ffd600;
+}
+
+.resume_page .social_links i:hover {
+	font-size: 45px;
+	text-shadow: -1px 1px #ffd500, 1px 1px #ffd91a, 1px 0 #ffd600, 0 -1px #ffd600;
+}
+
+.resume_page .footer {
+	padding-top: 150px;
+}
+
+.resume_page .footer .footer_text {
+	font-size: 12px;
+}
+
+.resume_page .footer i {
+	padding: 0 10px;
+	font-size: 20px;
+	color: #fff;
+}
+
+@media screen and (max-width: 992px) {
+	.resume_page {
+		padding: 20px 10px;
+	}
+
+	.resume_page .resume_heading {
+		font-size: 26px;
+		color: #f2f2f2;
+		font-weight: bold;
+	}
+
+	.resume_page .resume_headimg_img {
+		padding: 40px 0;
+	}
+
+	.resume_page .work_experience h1 {
+		padding: 30px 0 70px;
+	}
+
+	.resume_page .education h1 {
+		padding: 70px 0 0;
+	}
+	.resume_page .certificate h1 {
+		padding: 70px 0 0px;
+	}
+	.resume_page .alumni h1 {
+		padding: 70px 0 20px;
+	}
+
+	.resume_page .volunteering h1 {
+		padding: 90px 0 40px;
+	}
+
+	.resume_page .projects h1 {
+		padding: 90px 0 40px;
+	}
+
+	.resume_page .breaker {
+		padding: 90px 0;
+	}
+}

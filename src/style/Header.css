@@ -1,0 +1,163 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 110px;
+	padding: 0 30px;
+	position: fixed;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+
+.header .header_logo {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.header .header_logo h1 {
+	font-size: 25px;
+	color: #fff;
+	line-height: 22px;
+}
+
+.header .header_logo h1 span {
+	color: #fff;
+	opacity: 0.7;
+	font-size: 18px;
+}
+
+.header .header_logo h1:hover {
+	opacity: 0.5;
+}
+
+/* Right Side Navbar */
+.header_links {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.header_links .link_container {
+	padding-bottom: 5px;
+	position: relative;
+}
+
+.header .header_links .link_container {
+	transform: skewX(-10deg);
+}
+
+.header .header_links .link {
+	font-size: 18px;
+	color: #ffd600;
+	text-transform: capitalize;
+	padding: 0 20px;
+	border-right: 2px solid #ffd600;
+}
+
+.header .header_links .navHover::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	height: 2px;
+	width: calc(100% - 40px);
+	display: flex;
+	margin-left: 20px;
+	background-color: #ffd600;
+	transition: all 0.5s linear;
+	transform: scale(0);
+}
+
+.header .header_links .navHover.active::before,
+.header .header_links .navHover:hover::before {
+	color: #ffd600;
+	transform: scale(1);
+}
+
+/* Mobile Navbar */
+.small_screen_header {
+	justify-content: space-between;
+	align-items: center;
+
+	height: 90px;
+	padding: 0 15px;
+	position: fixed;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+
+.small_screen_header .header_logo {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.small_screen_header .header_logo h1 {
+	font-size: 18px;
+	color: #fff;
+	line-height: 22px;
+}
+
+.small_screen_header .header_logo h1 span {
+	color: #fff;
+	opacity: 0.7;
+	font-size: 16px;
+}
+
+.small_screen_header .header_logo h1:hover {
+	opacity: 0.5;
+}
+
+/* Hamburder Menu Icon */
+
+.hamburger_menu .hamburger_icon div {
+	width: 20px;
+	height: 3px;
+	background-color: #ffd600;
+	margin: 5px 0;
+	cursor: pointer;
+}
+.hamburger_menu .hamburger_icon div:hover {
+	margin: 2px 0;
+	height: 2px;
+}
+
+.hamburger_menu .overlay_navbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	background: rgba(0, 0, 0, 0.8);
+	z-index: 9;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.hamburger_menu .overlay_navbar .links .link {
+	text-decoration: none;
+	font-size: 25px;
+	line-height: 40px;
+	color: #ffd600;
+	text-transform: capitalize;
+}
+
+.overlay_navbar {
+	position: relative;
+}
+
+.overlay_navbar .hamburger_close_icon {
+	position: absolute;
+	font-size: 25px;
+	top: 25px;
+	color: #ffd600;
+	right: 20px;
+	cursor: pointer;
+}
